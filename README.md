@@ -1,4 +1,4 @@
-#Dynamic-Double-Ended-Queue
+#Dynamic-Double-Ended-Queue (a.k.a Deque)
 
 A macro implemented “template” for a double-ended queue container,
 known as a deque.
@@ -14,13 +14,13 @@ Deque_DEFINE(int) will be replace the code for Deque of type integer.
 The struct for a container of int variables would be named Deque_int.
 
 
-#REQUIREMENTS :
+##REQUIREMENTS :
 
 	1. gcc/g++ version 4.2.1 or up. Preferable 5.2.0.
 
 
 
-#INSTRUCTIONS TO COMPILE :
+##INSTRUCTIONS TO COMPILE :
 
 	1. To compile the mytest.cpp which basically shows the usage of the Deque.hpp file , compile as follows :
 
@@ -33,10 +33,12 @@ The struct for a container of int variables would be named Deque_int.
 	3. To use the Deque.hpp for your code , I would recommend you to go through the      mytest.cpp file to understand the usage of the Deque.hpp.
 
 
-#DATA STRUCTURE USED : CIRCULAR BUFFER
+##DATA STRUCTURE USED
+
+The data structure used for this project was : Circular Dynamic Array
 
 
-#SOME OTHER NOTES :
+##SOME OTHER NOTES :
 
 	1. The code does not completely take care of memory leaks.
 
