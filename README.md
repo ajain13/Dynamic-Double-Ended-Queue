@@ -26,28 +26,26 @@ Deque_int
 
 ##INSTRUCTIONS TO COMPILE :
 
-	To compile the mytest.cpp which basically shows the usage of the Deque.hpp file , compile as follows :
-	
+	* To compile the mytest.cpp which basically shows the usage of the Deque.hpp file , compile as follows :
 
-			```
+```
 			g++ mytest.cpp -o test -std=c++11 -ldl
-			```
+```
 	
-	To run ,
-	
-		```
+	* To run ,
+```
 		./test
-		```
+```
 	
-	To use the Deque.hpp for your code , I would recommend you to go through the mytest.cpp file to understand the usage of the Deque.hpp.
+	* To use the Deque.hpp for your code , I would recommend you to go through the mytest.cpp file to understand the usage of the Deque.hpp.
 
 
-###DATA STRUCTURE USED
+##DATA STRUCTURE USED
 
 The data structure used for this project was : Circular Dynamic Array
 
 
-####SOME OTHER NOTES :
+##SOME OTHER NOTES :
 
 	1. The code does not completely take care of memory leaks.
 
