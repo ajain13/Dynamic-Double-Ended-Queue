@@ -26,15 +26,18 @@ Deque_int
 
 ##INSTRUCTIONS TO COMPILE :
 
-	1. To compile the mytest.cpp which basically shows the usage of the Deque.hpp file , compile as follows :
+	To compile the mytest.cpp which basically shows the usage of the Deque.hpp file , compile as follows :
+
 ```
 			g++ mytest.cpp -o test -std=c++11 -ldl
 ```
-	2. To run ,
+	
+	To run ,
 ```
 		./test
 ```
-	3. To use the Deque.hpp for your code , I would recommend you to go through the mytest.cpp file to understand the usage of the Deque.hpp.
+	
+	To use the Deque.hpp for your code , I would recommend you to go through the mytest.cpp file to understand the usage of the Deque.hpp.
 
 
 ##DATA STRUCTURE USED
