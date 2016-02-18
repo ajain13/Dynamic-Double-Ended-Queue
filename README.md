@@ -20,7 +20,7 @@ Deque_int
 
 ##REQUIREMENTS :
 ```
-	gcc/g++ version 4.2.1 or up. Preferable 5.2.0.
+	gcc/g++ version 4.2.1 or up. Preferably 5.2.0.
 ```
 
 
