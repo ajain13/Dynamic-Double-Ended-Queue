@@ -15,7 +15,7 @@ Deque_DEFINE(int) will be replace the code for Deque of type integer.
 
 In this case , the struct for the container of int variables would be named, 
 ```
-	Deque_int
+Deque_int
 ```
 
 ##REQUIREMENTS :
