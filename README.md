@@ -1,4 +1,4 @@
-#Dynamic-Double-Ended-Queue (a.k.a Deque)
+#Dynamic Double Ended Queue (a.k.a Deque)
 
 A macro implemented “template” for a double-ended queue container,
 known as a deque.
