@@ -51,7 +51,7 @@ The data structure used for this project was : Circular Dynamic Array
 ```
 				valgrind --tool=memcheck --leak-check=yes ./test
 ```
-	(or)
+(or)
 ```
 				valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes ./test
 ```
