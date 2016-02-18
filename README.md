@@ -15,7 +15,7 @@ Deque_DEFINE(int) will be replace the code for Deque of type integer.
 
 In this case , the struct for the container of int variables would be named, 
 ```
-Deque_int
+	Deque_int
 ```
 
 ##REQUIREMENTS :
@@ -49,11 +49,11 @@ The data structure used for this project was : Circular Dynamic Array
 
 	2. To test for memory leaks , use the following command(assuming valgrind is installed) :
 
-		valgrind --tool=memcheck --leak-check=yes ./test
+				valgrind --tool=memcheck --leak-check=yes ./test
 
 		(or)
 
-		valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes ./test
+				valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes ./test
 
 	3. Before running with valgrind , reduce the number of iterations in the performance test code block of mytest.cpp which will make
    	the execution complete early.
