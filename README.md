@@ -55,5 +55,6 @@ The data structure used for this project was : Circular Dynamic Array
 ```
 	valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes ./test
 ```
-3. Before running with valgrind , reduce the number of iterations in the performance test code block of mytest.cpp which will make
-   the execution complete early.
+NOTE : 
+Before running with valgrind , reduce the number of iterations in the performance test code block of mytest.cpp which 
+will make the execution complete early.
