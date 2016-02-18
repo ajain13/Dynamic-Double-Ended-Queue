@@ -6,7 +6,9 @@ The Deque is implemented as a circular, dynamic array.
 The following is the way to create a Deque of integer type which can be
 used in your code:
 
-* Deque_DEFINE(int)
+```
+Deque_DEFINE(int)
+```
 
 This will basically result in a text replacement where
 Deque_DEFINE(int) will be replace the code for Deque of type integer.
